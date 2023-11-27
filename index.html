@@ -22,6 +22,20 @@
 	<meta name="description" content="这是XXX为XXX表白制作的表白网站">
 	<title>XXX LOVE XXX</title>
 	<link rel="stylesheet" href="all.min.css" >
+
+	  <script>
+    window.onload = function() {
+      var password = prompt("Please enter the password:");
+
+      // Check if the entered password is correct
+      if (password !== "0525") {
+        alert("Incorrect password. Access denied.");
+        // 如果密码错误，返回 false，阻止访问
+        return false;
+      }
+    };
+  </script>
+
 </head>
 <body>
 	<div class="flowtime">
